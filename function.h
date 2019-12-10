@@ -15,3 +15,16 @@ void enqueue() {
     printQueue();
   }
 }
+void dequeue() {
+	if (isEmpty()){
+		cout << "Antrian masih kosong"<<endl<<endl;
+	}
+	else{
+		//menggeser antrian data ke head
+		for (int i = Q.front; i < Q.rear; i++)
+			Q.data[i] = Q.data[i + 1];
+
+		Q.rear--;
+		printQueue();
+	}
+}
