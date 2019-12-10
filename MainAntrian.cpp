@@ -9,7 +9,7 @@ int main() {
 		//Tampilan menu
 		cout<< "<< ANTRIAN BANK >>\n";
 		cout<< "Menu\n";
-	    cout<< "1. Tambah Antrian\n";
+	    	cout<< "1. Tambah Antrian\n";
 		cout<< "2. Kurangi Antrian\n";
 		cout<< "3. Keluar \n";
 		cout<< "Pilihan : "; cin >> choose;
